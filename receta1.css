@@ -9,10 +9,3 @@
     --jet: #464340;
     --lightjet: #8d8d8d;
 }
-.main-body
-{
-    display: flex;
-    margin-top: 128px;
-    height: 81.6vh;
-    
-}
