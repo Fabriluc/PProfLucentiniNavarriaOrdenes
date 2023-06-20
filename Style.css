@@ -37,7 +37,7 @@ header
     padding: 10px 30px;
     width: 100%;
     left: 0;
-    top: 70px;
+    top: 64px;
     justify-content: space-evenly;
     align-items: center;
     list-style-type: none;
@@ -165,27 +165,40 @@ a:visited {
     transition-duration: 0.3s;
 }
 
+footer
+{
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 45px;
+  margin: 0;
+  padding: 0;
+  background-color: var(--brown);
+}
+
 .contact-container
 {
-    background-color: var(--brown);
+   
     font-size: 14px;
     display: flex;
   position: absolute;
   align-items: center;
   list-style-type: none;
+  left: 0;
   bottom: 0;
   text-align: left;
   height: 45px;
   width: 100%;
-  transform: translateX(-8px);
 }
 .contact-container li a{
     position: relative;
     display: inline-block;
     justify-content: space-evenly;
     margin-top: 0px;
-    margin-left: 10px;
-    padding: 8px 10px;
+    margin-left: 0px;
+    padding: 8px 8px;
     background: var(--lightpeach);
     color: var(--jet);
     border-radius: 30px;
