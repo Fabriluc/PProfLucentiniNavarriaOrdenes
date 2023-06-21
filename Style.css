@@ -201,6 +201,7 @@ footer
   width: 200px;
   height: 100%;
   background: #963413;
+  top: 64px;
   left: -200px;
   transition: all 500ms linear;
  
@@ -222,7 +223,7 @@ footer
 #sidebar .toggle-btn {
   position: absolute;
   left: 210px;
-  top: 73px;
+  top: 7px;
   cursor: pointer;
 }
 
@@ -231,16 +232,20 @@ footer
   width: 40px;
   text-align: center;
   font-size: 30px;
-  
+}
+.main-body
+{
+  margin-top: 130px;
 }
 
 div.galeria{
-  margin: 150px 10px;
+  margin: 10px 10px;
   justify-content: center;
   box-shadow: 0 4px 8px 0 lightblue, 0 6px 20px 0 rgba(0, 0, 0, 0, 19);
   float: left;
   width: 300px;
- padding: 35px;
+ padding: 25px;
+ border: 1px solid var(--brown);
 }
 
 div.galeria img{
@@ -249,10 +254,11 @@ div.galeria img{
   object-fit: cover;
 }
 
-div.galeria:hover{
+div.galeria img:hover{
   border: 1px solid rgb(151, 81, 0);
-  transform: rotate(-3deg);
-
+  transform: rotate(-2deg);
+  transition-duration: 0.5s;
+  cursor:pointer ;
 }
 
 div.pie{
