@@ -245,13 +245,14 @@ div.galeria{
   float: left;
   width: 300px;
  padding: 29px;
- cursor: pointer;
+ 
 }
 
 div.galeria img{
   width: 250px;
   height: 300px;
   object-fit: cover;
+  cursor: pointer;
   box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.15);
 }
 
