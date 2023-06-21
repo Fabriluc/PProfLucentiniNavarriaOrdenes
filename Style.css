@@ -199,7 +199,7 @@ footer
 #sidebar {
   position: absolute;
   width: 200px;
-  height: 100%;
+  height: 1008px;
   background: #963413;
   left: -200px;
   transition: all 500ms linear;
@@ -241,6 +241,7 @@ div.galeria{
   float: left;
   width: 300px;
  padding: 35px;
+ cursor: pointer;
 }
 
 div.galeria img{
@@ -260,3 +261,9 @@ div.pie{
   text-shadow: 2px 2px 5px rgb(253, 77, 32);
   padding: 10px;
 }
+
+
+
+
+
+
