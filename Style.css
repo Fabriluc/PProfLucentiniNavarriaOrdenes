@@ -29,6 +29,7 @@ header
     width: 100%;
     background-color: var(--poppy);
     text-decoration: none;
+    padding: 5px;
     
 }
 .subheader{
@@ -215,4 +216,67 @@ footer
 .contact-container li a:hover{
     transform: scale(90%);
     transition-duration: 0.3s;
+}
+#sidebar {
+  position: fixed;
+  width: 200px;
+  height: 100%;
+  background: #963413;
+  left: -200px;
+  transition: all 500ms linear;
+}
+
+#sidebar.active {
+  left: 0px;
+}
+
+#sidebar ul li {
+  color: rgba(230, 230, 230, .9);
+  list-style: none;
+  padding: 15px 10px;
+  border-bottom: 1px solid rgba(100, 100, 100, .3);
+  text-align: center;
+}
+
+
+#sidebar .toggle-btn {
+  position: absolute;
+  left: 210px;
+  top: 73px;
+  cursor: pointer;
+}
+
+#sidebar .toggle-btn span {
+  display: block;
+  width: 40px;
+  text-align: center;
+  font-size: 30px;
+  
+}
+
+div.galeria{
+  margin: 150px 10px;
+  justify-content: center;
+  box-shadow: 0 4px 8px 0 lightblue, 0 6px 20px 0 rgba(0, 0, 0, 0, 19);
+  float: left;
+  width: 300px;
+ padding: 35px;
+}
+
+div.galeria img{
+  width: 250px;
+  height: 300px;
+  object-fit: cover;
+}
+
+div.galeria:hover{
+  border: 1px solid rgb(151, 81, 0);
+  transform: rotate(-3deg);
+
+}
+
+div.pie{
+  text-align: center;
+  text-shadow: 2px 2px 5px rgb(253, 77, 32);
+  padding: 10px;
 }
