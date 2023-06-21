@@ -199,7 +199,7 @@ footer
 #sidebar {
   position: absolute;
   width: 200px;
-  height: 100%;
+  height: 1008px;
   background: #963413;
   top: 64px;
   left: -200px;
@@ -244,10 +244,8 @@ div.galeria{
   box-shadow: 0 4px 8px 0 lightblue, 0 6px 20px 0 rgba(0, 0, 0, 0, 19);
   float: left;
   width: 300px;
- padding: 25px;
- border: 1px solid var(--brown);
- background-color: #ffedcf;
- box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.15);
+ padding: 29px;
+ cursor: pointer;
 }
 
 div.galeria img{
@@ -269,3 +267,9 @@ div.pie{
   text-shadow: 2px 2px 5px rgb(253, 77, 32);
   padding: 10px;
 }
+
+
+
+
+
+
