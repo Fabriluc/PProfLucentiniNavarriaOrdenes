@@ -74,6 +74,7 @@ h1 {
   justify-content: center;
   max-width: 900px;
 }
-.input[type="checkbox"]#checkbox:checked {
-background-color: var(--lightcoral);
+.ingrediente [type=checkbox]:checked+label
+{
+text-decoration: line-through;
 }
